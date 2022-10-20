@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  } 
+.navbar-brand img{
+    width: 75px;
+    margin-left: 20px;
+}
+.menu {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-text h1{
+    font-family: 'Anton', sans-serif;
+}
+
+.menu-text a{
+    text-decoration: none;
+    padding: 7px 41px;
+    font-size: 22px;
+    height: 50px;
+    width: 500px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 11px;
+    background: rgb(238, 234, 234);
+    color: #009d94;
+}
+.menu-text p{
+    margin: 35px;
+}
+.menu .menu-text{
+    position: relative;
+  color: white;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.menu .menu-text h1{
+    font-size: 34px;
+}
+footer{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white ;
+    text-align: center;
+    font-size: 16px;
+    
+   
+}
+footer span{
+    color: red;
+}
+.blog-meta h4 a{
+    color: black;
+} 
+.blog-meta small a{
+    color: black;
+} 
+.container-fluid{
+    background-color: black;
+    color: white;
+
+}
+.col-lg-4{
+    margin: 17px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    
+}
+.col-lg-4 h1{
+    margin-top: 12px;
+    color: aqua;
+}
+.row{
+    padding-top: 21px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row >*{
+    flex-shrink: 1;
+}
+.image img{
+
+    width: 100%;
+    height: 100%;
+;
+}
+.for{
+    margin: 20px;
+    padding: 30px;
+}
+.container1 .box1 img{
+    border-radius: 50%;
+}
+input, textarea{
+    
+    border: 1px solid black;
+
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    margin: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.container3{
+    width: 500px;
+    height: 200px;
+    margin: 111px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.container3 img{
+    width: 44px;
+}
+.container3 p{
+    text-align: center;
+    color: #000;
+}
+.container2{
+    height: 34vh;
+ background-color:black;
+    justify-content: center;
+    align-items: center;
+
+}
+.container2 h1{
+ color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.container2 p{
+    font-size: 2.2rem;
+    padding: .5rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.container2 p span.typed-text{
+    font-weight: normal;
+    color: aqua;
+}
+.container2 p span.cursor{
+    display: inline-block;
+    background: #ccc;
+    margin-left: .1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.container2 p span.cursor.typing{
+    animation: none;
+}
+@keyframes blink {
+    0%{background: #ccc;}
+    49%{background: #ccc;}
+    50%{background: transparent;}
+    99%{background: transparent;}
+    100%{background: #ccc;}
+    
+}
+.card-body{
+    background-color: black;
+    color: white;
+}
+.headingMedia .textBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 1.5rem;
+    margin: 4px;
+}
+ .card {
+ margin: 7px;
+ background: #000;
+ border: 3px solid white;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
